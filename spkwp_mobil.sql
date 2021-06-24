@@ -39,15 +39,6 @@ CREATE TABLE `bobot_data` (
   `harga` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data untuk tabel `bobot_data`
---
-
-INSERT INTO `bobot_data` (`id`, `id_mobil`, `grade_mesin`, `grade_interior`, `grade_eksterior`, `usia`, `besar_cc`, `harga`) VALUES
-(8, 8, 4, 3, 3, 4, 3, 2),
-(9, 9, 5, 4, 4, 3, 2, 2),
-(10, 10, 3, 4, 3, 3, 2, 2),
-(11, 11, 2, 3, 4, 2, 4, 3);
 
 -- --------------------------------------------------------
 
@@ -68,15 +59,6 @@ CREATE TABLE `data_mobil` (
   `vektor_s` float NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data untuk tabel `data_mobil`
---
-
-INSERT INTO `data_mobil` (`id`, `nama`, `jenis`, `grade_mesin`, `grade_interior`, `grade_eksterior`, `usia`, `besar_cc`, `harga`, `vektor_s`) VALUES
-(8, ' kijang innova 2.4G', 'MPV', 'B', 'C', 'C', 3, '2400', 289000000, 2.82233),
-(9, 'avanza 1.3G', 'MPV', 'A', 'B', 'B', 5, '1300', 135000000, 3.00796),
-(10, 'Jazz type e', 'Hatchback', 'C', 'B', 'C', 5, '1500', 186000000, 2.52147),
-(11, 'Lc', 'SUV', 'D', 'C', 'B', 12, '3000', 378000000, 2.29512);
 
 --
 -- Indexes for dumped tables
